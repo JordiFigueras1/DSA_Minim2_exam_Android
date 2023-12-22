@@ -12,7 +12,7 @@
         android:weightSum="2">
 
         <ImageView
-            android:id="@+id/image"
+            android:id="@+id/avatar"
             android:layout_width="100dp"
             android:layout_height="match_parent" />
         <LinearLayout

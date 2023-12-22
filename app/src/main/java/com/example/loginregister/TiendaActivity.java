@@ -134,7 +134,7 @@ public class TiendaActivity extends AppCompatActivity {
                 precio = itemView.findViewById(R.id.precio);
                 daño = itemView.findViewById(R.id.daño);
                 rareza = itemView.findViewById(R.id.rareza);
-                image = itemView.findViewById(R.id.image);
+                image = itemView.findViewById(R.id.avatar);
             }
         }
     }

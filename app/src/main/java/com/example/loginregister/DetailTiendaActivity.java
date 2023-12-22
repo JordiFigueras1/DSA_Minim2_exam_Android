@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.ProgressBar;
 import android.content.SharedPreferences;
 import android.widget.Toast;
 
@@ -29,7 +27,7 @@ public class DetailTiendaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_tienda);
         id = findViewById(R.id.Id);
-        nombre = findViewById(R.id.Nombre);
+        nombre = findViewById(R.id.Name);
         rareza = findViewById(R.id.Rareza);
         daño = findViewById(R.id.Daño);
         precio = findViewById(R.id.Precio);

@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"/>
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/avatar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
@@ -32,7 +32,7 @@
         android:textSize="30sp"></TextView>
 
     <TextView
-        android:id="@+id/Nombre"
+        android:id="@+id/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"

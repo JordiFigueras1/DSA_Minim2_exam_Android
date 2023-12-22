@@ -18,7 +18,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:text="Accede a tu perfil"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
             android:id="@+id/username"
@@ -27,8 +27,7 @@
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/btn_perfil"
-            app:layout_constraintStart_toStartOf="@+id/btn_perfil"></TextView>
-
+            app:layout_constraintStart_toStartOf="@+id/btn_perfil" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
@@ -36,19 +35,18 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Bienvenido"
-            android:textSize="30sp"
-            ></TextView>
+            android:textSize="30sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="20dp">
-        </com.google.android.material.textfield.TextInputLayout>
+            android:padding="20dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -63,9 +61,15 @@
                 tools:layout_editor_absoluteX="146dp"
                 tools:layout_editor_absoluteY="165dp" />
 
-
         </LinearLayout>
 
+        <!-- Nuevo botón justo debajo del botón de la tienda -->
+        <Button
+            android:id="@+id/btn_listar_insignias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar insignias otorgadas"
+            android:layout_gravity="center" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

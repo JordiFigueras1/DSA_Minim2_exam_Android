@@ -28,7 +28,10 @@
             android:name=".TiendaActivity"
             android:exported="false" />
         <activity
-            android:name=".Ej1Minimo2Activity"
+            android:name=".InsigniasActivityMinimo2"
+            android:exported="false" />
+        <activity
+            android:name=".DetailInsigniasMinimo2"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"

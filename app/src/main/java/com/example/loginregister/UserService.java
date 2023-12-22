@@ -30,4 +30,7 @@ public interface UserService {
     @PUT("tienda/comprarObjeto/{mail}")
     Call<Object> comprarObjeto(@Body Object object,@Path("mail") String mail);
 
+    @GET("usuario/listar_insignias_usuario/insignias/{username}")
+    Call<List<Insignia>> getInsignias(@Path("username")String username);
+
 }
